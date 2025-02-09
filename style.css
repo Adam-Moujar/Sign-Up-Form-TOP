@@ -1,3 +1,7 @@
+body{
+    background-image: url("img/background_img.jpg");
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -8,10 +12,10 @@
 
 .form_header{
     border: 2px solid black;
-    padding: 50px 30px 50px 30px;
+    padding: 75px 50px 100px 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 100px;
 }
 
 .form{
@@ -21,5 +25,10 @@
 }
 
 .sign_up_header{
-    font-size: 36px;
+    font-size: 52px;
+    font-family: "Roboto", serif;
+}
+
+button{
+    border-radius: 30px;
 }
